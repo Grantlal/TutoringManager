@@ -1,5 +1,5 @@
 # TutoringManager
-Software Engineering: 465 Architecture project Location
+Software Engineering: 465 Architecture Project Location
 
 Angular project that will exemplify features of a tutoring management system. 
 Some of these include: 
