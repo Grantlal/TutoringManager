@@ -1,21 +1,25 @@
+<!-- This is the navbar items, it contains a navbar from bootstrap. It'll show elements of the navbar. Once too small
+      it'll allow for expansion with the little bar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    Brand
+    Resources
   </a>
 
-  <button class="navbar-toggler" type="button">
+  <button class="navbar-toggler" type="button"
+  (click)="toggleNavbar()">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 
-  <div class="collapse navbar-collapse">
+  <div class="collapse navbar-collapse"
+       [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Item 1</a>
+        <a class="nav-link" href="#">Tutorial Manager</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Item 2</a>
+        <a class="nav-link" href="#">Whatever Other Tabs</a>
       </li>
     </ul>
   </div>
