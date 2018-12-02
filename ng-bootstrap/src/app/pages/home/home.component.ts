@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
     }
 
     EmailTa(): void {
-        window.open("https://outlook.office.com/owa/");
+      //  this.openOptionsMenu();
     }
 
     EmailProf(): void {

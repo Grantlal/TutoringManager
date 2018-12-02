@@ -59,13 +59,22 @@
                             <a class="minimalize-styl-2 btn btn-primary " (click)="EmailProf()">Go to Emails</a>
                         </div>
                         <div class="feed-element">
-                                <a class="minimalize-styl-2 btn btn-primary" id="Tabutton" (click)="EmailTa()">Contact TA</a>
+                                <div class="btn-group">
+                                        <button data-toggle="dropdown" class="btn btn-success dropdown-toggle" (click)="dropdown-toggle">Contact TA <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#" class="font-bold">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
      <div class="col-lg-8">
 
