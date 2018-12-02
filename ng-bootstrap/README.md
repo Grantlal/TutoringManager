@@ -1,4 +1,4 @@
-# Admin panel and UI Components for Angular.
+# Tutorial Manager with basic dashboard
 Changing some of readme for readabilities sake. 
 This is the Readme for 465 Project. It utilizes the an admin dashboard framework under an mit license. 
 
