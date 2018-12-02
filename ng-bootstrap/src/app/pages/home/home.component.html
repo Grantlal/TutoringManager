@@ -25,25 +25,25 @@
                                 <small class="pull-right text-navy">1m ago</small>
                                 <strong>Mehdi Mekni</strong>
                                 <div>SE465 Lecture Posted</div>
-                                <small class="text-muted">Today 5:60 pm - 11.30.2018</small>
+                                <small class="text-muted">Today 11:30am - 11.30.2018</small>
                             </div>
                         </div>
 
                         <div class="feed-element">
                             <div>
-                                <small class="pull-right">2m ago</small>
+                                <small class="pull-right">1hr ago</small>
                                 <strong>Danrun</strong>
                                 <div>Do your homework</div>
-                                <small class="text-muted">Today 2:23 pm - 11.30.2018</small>
+                                <small class="text-muted">Today 10:23am - 11.30.2018</small>
                             </div>
                         </div>
 
                         <div class="feed-element">
                             <div>
-                                <small class="pull-right">5m ago</small>
+                                <small class="pull-right">3hr ago</small>
                                 <strong>Tom Cruise</strong>
                                 <div>I am a prince give me money and your social security number</div>
-                                <small class="text-muted">Today 1:00 pm - 11.30.2018</small>
+                                <small class="text-muted">Today 8:00am - 11.30.2018</small>
                             </div>
                         </div>
 
@@ -54,6 +54,9 @@
                                 <div>Samuel has responded to a question you posted earlier </div>
                                 <small class="text-muted">Yesterday 8:48 pm - 11.29.2018</small>
                             </div>
+                        </div>
+                        <div class="feed-element">
+                            <a class="minimalize-styl-2 btn btn-primary " (click)="EmailProf()">Go to Emails</a>
                         </div>
 
                     </div>
@@ -142,34 +145,27 @@
                             <ul class="todo-list m-t small-list">
                                 <li>
                                     <a href="#" class="check-link"><i class="fa fa-check-square"></i> </a>
-                                    <span class="m-l-xs todo-completed">Buy a milk</span>
+                                    <span class="m-l-xs todo-completed" (click)="Checkoff">Finish NFR's</span>
 
                                 </li>
                                 <li>
                                     <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                    <span class="m-l-xs">Go to shop and find some products.</span>
+                                    <span class="m-l-xs">Send documents to David</span>
 
                                 </li>
                                 <li>
                                     <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                    <span class="m-l-xs">Send documents to Mike</span>
-                                    <small class="label label-primary"><i class="fa fa-clock-o"></i> 1 mins</small>
+                                    <span class="m-l-xs">Finish Project</span>
+                                    <small class="label label-primary"><i class="fa fa-clock-o"></i> 2 Days</small>
                                 </li>
                                 <li>
                                     <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                    <span class="m-l-xs">Go to the doctor dr Smith</span>
-                                </li>
-                                <li>
-                                    <a href="#" class="check-link"><i class="fa fa-check-square"></i> </a>
-                                    <span class="m-l-xs todo-completed">Plan vacation</span>
+                                    <span class="m-l-xs">Meeting at 2:30pm</span>
+                                    <small class="label label-warning"><i class="fa fa-clock-o"></i> 2hrs</small>
                                 </li>
                                 <li>
                                     <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                    <span class="m-l-xs">Create new stuff</span>
-                                </li>
-                                <li>
-                                    <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                    <span class="m-l-xs">Call to Anna for dinner</span>
+                                    <span class="m-l-xs">Study Orthogonalization</span>
                                 </li>
                             </ul>
                         </div>
@@ -197,7 +193,7 @@
                                     <table class="table table-hover margin bottom">
                                         <thead>
                                         <tr>
-                                            <th style="width: 20%" class="text-center">Tutor Name</th>
+                                            <th style="width: 5%" class="text-center">Tutor Name</th>
                                             <th>Tutor Level</th>
                                             <th class="text-center">Specialty</th>
                                             <th class="text-center">Times Available</th>
@@ -210,7 +206,7 @@
                                             <td>Professor</td>
                                             <td class="text-center small">Calculus, Discrete Mathematics </td>
                                             <td class="text-center small">11:00-11:30am 11:30-12:00pm</td>
-                                            <td class="text-center"><span class="label label-primary">Check Me Out</span></td>
+                                            <a class="minimalize-styl-2 btn btn-primary " (click)="CheckoutTutor()">Check Me Out</a>
             
                                         </tr>
                                         <tr>
@@ -218,15 +214,15 @@
                                             <td>Professor</td>
                                             <td class="text-center small">Linear Algebra, Differential Equations</td>
                                             <td class="text-center">1:00-1:30pm 1:30-2:00pm</td>
-                                            <td class="text-center"><span class="label label-primary">Check Me Out</span></td>
+                                            <a class="minimalize-styl-2 btn btn-primary " (click)="CheckoutTutor()">Check Me Out</a>
 
                                         </tr>
                                         <tr>
                                             <td class="text-center">Marky Mark</td>
                                             <td> Tutor</td>
                                             <td class="text-center small">Absolutely Nothing</td>
-                                            <td class="text-center">1:00-1:30pm 1:30-2:00pm 2:00-2:30pm 2:30-3:00pm</td>
-                                            <td class="text-center"><span class="label label-primary">Check Me Out</span></td>
+                                            <td class="text-center small">1:00-1:30pm 1:30-2:00pm 2:00-2:30pm 2:30-3:00pm</td>
+                                            <a class="minimalize-styl-2 btn btn-primary " (click)="CheckoutTutor()">Check Me Out</a>
 
                                         </tr>
                                         <tr>
@@ -234,7 +230,7 @@
                                             <td>Best Tutor</td>
                                             <td class="text-center small">Everything</td>
                                             <td class="text-center"></td>
-                                            <td class="text-center"><span class="label label-danger">Unavailable</span></td>
+                                            <a class="minimalize-styl-2 btn btn-danger "> Unavailable </a>
 
                                         </tr>
                                         <tr>
@@ -242,7 +238,7 @@
                                             <td>Tutor</td>
                                             <td class="text-center small">Calculus</td>
                                             <td class="text-center">3:30-4:00pm</td>
-                                            <td class="text-center"><span class="label label-warning"> Check Me Out</span></td>
+                                            <a class="minimalize-styl-2 btn btn-warning " (click)="CheckoutTutor()">Check Me Out</a>
                                         </tbody>
                                     </table>
                                 </div>
