@@ -21,6 +21,10 @@ export class HomeComponent implements OnInit {
     CheckoutTutor(): void {
         window.open("https://tutor.stcloudstate.edu/TracWeb40/Default.html")
     }
+
+    GoChat(): void {
+        window.open("https://snatchbot.me/webchat/?botID=38759&appID=hUcLA1dQ99nns1Mw8VFx")
+    }
     ngOnInit() {
     }
 }
