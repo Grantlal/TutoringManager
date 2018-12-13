@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
     }
 
     GoChat(): void {
-        window.open("https://snatchbot.me/webchat/?botID=38759&appID=hUcLA1dQ99nns1Mw8VFx")
+        window.open("https://snatchbot.me/webchat/?botID=39005&appID=sVJ9eLJV60JXwoSAL7eP")
     }
     ngOnInit() {
     }
